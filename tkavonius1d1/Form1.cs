@@ -46,22 +46,22 @@ namespace tkavonius1d1
 
         private void australiaTextChanged(object sender, EventArgs e)
         {
-            txtUSDAustralia.Text = (Convert.ToDecimal(txtAmountAustrailia.Text) * Convert.ToDecimal(txtRateAustrailia)).ToString("0.00");
+            txtUSDAustralia.Text = (Convert.ToDecimal(txtAmountAustrailia.Text) * Convert.ToDecimal(txtRateAustrailia.Text)).ToString("0.00");
         }
 
         private void euroTextchanged(object sender, EventArgs e)
         {
-            txtUSDEuro.Text = (Convert.ToDecimal(txtAmountEuro.Text) * Convert.ToDecimal(txtRateEuro)).ToString("0.00");
+            txtUSDEuro.Text = (Convert.ToDecimal(txtAmountEuro.Text) * Convert.ToDecimal(txtRateEuro.Text)).ToString("0.00");
         }
 
         private void yenTextChanged(object sender, EventArgs e)
         {
-            txtUSDYen.Text = (Convert.ToDecimal(txtAmountYen.Text) * Convert.ToDecimal(txtRateYen)).ToString("0.00");
+            txtUSDYen.Text = (Convert.ToDecimal(txtAmountYen.Text) * Convert.ToDecimal(txtRateYen.Text)).ToString("0.00");
         }
 
         private void canadaTextChanged(object sender, EventArgs e)
         {
-            txtUSDCanada.Text = (Convert.ToDecimal(txtAmountCanada.Text) * Convert.ToDecimal(txtRateCanada)).ToString("0.00");
+            txtUSDCanada.Text = (Convert.ToDecimal(txtAmountCanada.Text) * Convert.ToDecimal(txtRateCanada.Text)).ToString("0.00");
         }
 
         private void usdTextChanged(object sender, EventArgs e)

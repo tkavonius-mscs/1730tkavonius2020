@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tkavonius1d1", "tkavonius1d
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tkavonius1730ex1b", "tkavonius1730ex1b\tkavonius1730ex1b.csproj", "{DC3BCED5-C093-41CD-A4C7-8811927BE1F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tkavoniusex1e1", "tkavoniusex1e1\tkavoniusex1e1.csproj", "{B10CD6FA-2E8F-4B20-ABFF-003CABA3E71D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DC3BCED5-C093-41CD-A4C7-8811927BE1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC3BCED5-C093-41CD-A4C7-8811927BE1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC3BCED5-C093-41CD-A4C7-8811927BE1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B10CD6FA-2E8F-4B20-ABFF-003CABA3E71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10CD6FA-2E8F-4B20-ABFF-003CABA3E71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10CD6FA-2E8F-4B20-ABFF-003CABA3E71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10CD6FA-2E8F-4B20-ABFF-003CABA3E71D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
