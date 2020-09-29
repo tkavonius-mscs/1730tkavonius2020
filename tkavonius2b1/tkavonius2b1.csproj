@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C1385900-5967-4326-962C-8DD6036EA6C4}</ProjectGuid>
+    <ProjectGuid>{EA17B970-28AE-47DB-A8C6-1D948BBC4F3D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>tkavonius2A1</RootNamespace>
-    <AssemblyName>tkavonius2A1</AssemblyName>
+    <RootNamespace>tkavonius2b1</RootNamespace>
+    <AssemblyName>tkavonius2b1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frm2a1.cs">
+    <Compile Include="frm2b1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm2a1.Designer.cs">
-      <DependentUpon>frm2a1.cs</DependentUpon>
+    <Compile Include="frm2b1.Designer.cs">
+      <DependentUpon>frm2b1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frm2a1.resx">
-      <DependentUpon>frm2a1.cs</DependentUpon>
+    <EmbeddedResource Include="frm2b1.resx">
+      <DependentUpon>frm2b1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
