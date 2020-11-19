@@ -39,6 +39,22 @@ namespace tkavonius2h1
             TextBox9Result.Text = Ex2hCalculations.DateCalc09(TextBox9a.Text, TextBox9b.Text);
 
             TextBox10Result.Text = Ex2hCalculations.DateCalc10(TextBox10a.Text, TextBox10b.Text);
+
+         
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            TextBox11Result.Text = Ex2hCalculations.StringCalc01(TextBox11.Text);
+            TextBox12Result.Text = Ex2hCalculations.StringCalc02(TextBox12.Text);
+            TextBox13Result.Text = Ex2hCalculations.StringCalc03(TextBox13.Text);
+            TextBox14Result.Text = Ex2hCalculations.StringCalc04(TextBox14.Text);
+            TextBox15Result.Text = Ex2hCalculations.StringCalc05(TextBox15.Text);
+            TextBox16Result.Text = Ex2hCalculations.StringCalc06(TextBox16.Text);
+            TextBox17Result.Text = Ex2hCalculations.StringCalc07(TextBox17.Text);
+            TextBox18Result.Text = Ex2hCalculations.StringCalc08(TextBox18.Text);
+            TextBox19Result.Text = Ex2hCalculations.StringCalc09(TextBox19.Text);
+            Label20Result.Text = Ex2hCalculations.StringCalc10(TextBox17.Text, TextBox18.Text, TextBox19.Text);
         }
     }
 }

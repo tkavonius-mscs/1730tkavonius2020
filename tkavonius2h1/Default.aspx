@@ -93,45 +93,66 @@
         <div class="col-md-6">
             <h2>String Methods</h2>
                  <div class="form-group">
-            <asp:Label ID="Label11" runat="server" Text="Label"></asp:Label>
-                <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
+            <asp:Label ID="Label11" runat="server" Text="1) Remove/Insert"></asp:Label>
+                <asp:TextBox ID="TextBox11" runat="server">Late</asp:TextBox>
+           
+                <asp:TextBox ID="TextBox11Result" runat="server" Enabled="False" Height="20px"></asp:TextBox>
            
             </div> <div class="form-group">
-            <asp:Label ID="Label12" runat="server" Text="Label"></asp:Label>
-                <asp:TextBox ID="TextBox12" runat="server"></asp:TextBox>
+            <asp:Label ID="Label12" runat="server" Text="2) Remove/Insert"></asp:Label>
+                <asp:TextBox ID="TextBox12" runat="server">catter</asp:TextBox>
+           
+                <asp:TextBox ID="TextBox12Result" runat="server" Enabled="False"></asp:TextBox>
            
             </div> <div class="form-group">
-            <asp:Label ID="Label13" runat="server" Text="Label"></asp:Label>
-                <asp:TextBox ID="TextBox13" runat="server"></asp:TextBox>
+            <asp:Label ID="Label21" runat="server" Text="3)Substring/ToUpper"></asp:Label>
+                <asp:TextBox ID="TextBox13" runat="server">ABBlue22</asp:TextBox>
+           
+                <asp:TextBox ID="TextBox13Result" runat="server" Enabled="False"></asp:TextBox>
            
             </div> <div class="form-group">
-            <asp:Label ID="Label14" runat="server" Text="Label"></asp:Label>
-                <asp:TextBox ID="TextBox14" runat="server"></asp:TextBox>
+            <asp:Label ID="Label14" runat="server" Text="4) PadLeft"></asp:Label>
+                <asp:TextBox ID="TextBox14" runat="server">123.45</asp:TextBox>
+           
+                <asp:TextBox ID="TextBox14Result" runat="server" Enabled="False"></asp:TextBox>
            
             </div> <div class="form-group">
-            <asp:Label ID="Label15" runat="server" Text="Label"></asp:Label>
-                <asp:TextBox ID="TextBox15" runat="server"></asp:TextBox>
+            <asp:Label ID="Label15" runat="server" Text="5) Replace"></asp:Label>
+                <asp:TextBox ID="TextBox15" runat="server">(651) 385- 6300</asp:TextBox>
+           
+                <asp:TextBox ID="TextBox15Result" runat="server" Enabled="False"></asp:TextBox>
            
             </div> <div class="form-group">
-            <asp:Label ID="Label16" runat="server" Text="Label"></asp:Label>
-                <asp:TextBox ID="TextBox16" runat="server"></asp:TextBox>
+            <asp:Label ID="Label16" runat="server" Text="6) Replace/Length/Insert"></asp:Label>
+                <asp:TextBox ID="TextBox16" runat="server">(651) 385- 6300</asp:TextBox>
+           
+                <asp:TextBox ID="TextBox16Result" runat="server" Enabled="False"></asp:TextBox>
            
             </div> <div class="form-group">
-            <asp:Label ID="Label17" runat="server" Text="Label"></asp:Label>
-                <asp:TextBox ID="TextBox17" runat="server"></asp:TextBox>
+            <asp:Label ID="Label17" runat="server" Text="7) ToLower/Contains"></asp:Label>
+                <asp:TextBox ID="TextBox17" runat="server">308 Pioneer Rd</asp:TextBox>
+           
+                <asp:TextBox ID="TextBox17Result" runat="server" Enabled="False"></asp:TextBox>
            
             </div> <div class="form-group">
-            <asp:Label ID="Label18" runat="server" Text="Label"></asp:Label>
-                <asp:TextBox ID="TextBox18" runat="server"></asp:TextBox>
+            <asp:Label ID="Label18" runat="server" Text="8) Indexof/Substring"></asp:Label>
+                <asp:TextBox ID="TextBox18" runat="server">1250 Homer Rd, Winona</asp:TextBox>
+           
+                <asp:TextBox ID="TextBox18Result" runat="server" Enabled="False"></asp:TextBox>
            
             </div> <div class="form-group">
-            <asp:Label ID="Label19" runat="server" Text="Label"></asp:Label>
-                <asp:TextBox ID="TextBox19" runat="server"></asp:TextBox>
+            <asp:Label ID="Label19" runat="server" Text="9) LastIndex/Of/Substring"></asp:Label>
+                <asp:TextBox ID="TextBox19" runat="server">111 1st St,Lake City, MN, 55041</asp:TextBox>
+           
+                <asp:TextBox ID="TextBox19Result" runat="server" Enabled="False"></asp:TextBox>
            
             </div> <div class="form-group">
-            <asp:Label ID="Label20" runat="server" Text="Label"></asp:Label>
-                <asp:TextBox ID="TextBox20" runat="server"></asp:TextBox>
-           
+            <asp:Label ID="Label20" runat="server" Text="10) StringBuilder.Append"></asp:Label>
+                <asp:Label ID="Label20Result" runat="server" Text="[Label20Result]"></asp:Label>
+                <br />
+                <br />
+           <asp:Button ID="StringCalculationButton" runat="server" Text="String Calculation" Width="176px" OnClick="Button2_Click" />
+               
             </div>
              
         </div>
